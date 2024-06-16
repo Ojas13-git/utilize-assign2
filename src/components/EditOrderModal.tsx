@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Order } from '../types';
+import { Order } from '../redux/orderSlice';
 
 interface EditOrderModalProps {
   order: Order;
