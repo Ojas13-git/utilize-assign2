@@ -29,7 +29,7 @@ const CreateOrderModal: React.FC<CreateOrderModalProps> = ({ onSave, onClose }) 
     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
       <div className="bg-white p-4 rounded w-full max-w-md">
         <h2 className="text-xl font-bold mb-4">Create Order</h2>
-        <input name="customerName" placeholder="Enter Name..." value={formState.customerName} onChange={handleChange} className="border p-2 rounded mb-2 w-full" />
+        <input name="customerName" value={formState.customerName} onChange={handleChange} className="border p-2 rounded mb-2 w-full" />
         <input name="customerEmail" value={formState.customerEmail} onChange={handleChange} className="border p-2 rounded mb-2 w-full" />
         <select name="product" value={formState.product} onChange={handleChange} className="border p-2 rounded mb-2 w-full">
           <option value="Product 1">Product 1</option>
